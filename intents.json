@@ -1,0 +1,26 @@
+{"intents" :  [
+  {"tag":  "greetings",
+  "patterns": ["hello", "hey", "hi", "good day", "greetings", "how is it going", "what's up"],
+  "responses":  ["Hello", "Hey!", "What can I do for you?"]},
+
+    {"tag":  "goodbye",
+  "patterns": ["bye", "later", "I am leaving", "peace out", "cao", "see you later", "deuces"],
+  "responses":  ["Nooo :(", "Ok bye", "Can't wait to talk again soon!", "Goodbye"]},
+
+    {"tag":  "age",
+  "patterns": ["how old are you", "what is your age", "age?", "How old is Marlon"],
+  "responses":  ["My owner Marlon is 25 years old!", "25"]},
+
+    {"tag":  "name",
+  "patterns": ["What is your name?", "name?", "what should i call you", "who are you", "can you tell me your name"],
+  "responses":  ["You can call me Chip!", "I'm Chip!", "I'm Chip, the assistant of Marlon!"]},
+
+    {"tag":  "shop",
+  "patterns": ["I'd like to buy something", "what should I buy?", "recommendations?", "what are your products?", "what are you selling","shopping"],
+  "responses":  ["Chip can help you buy whatever you need.", "Got anything in mind?", "We can create a list on Amazon."]},
+
+    {"tag":  "hours",
+  "patterns": ["When are you available", "hours of operation", "what are your hours", "when can you help me"],
+  "responses":  ["I'm available to help you 24/7", "24/7", "All the time!"]}
+
+]}
